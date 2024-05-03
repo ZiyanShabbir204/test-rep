@@ -6,7 +6,7 @@ export const signup = (req,res)=>{
         email,
         password
     }
-    console.log("user",user)
+    console.log("ammar2",user)
     return res.status(200).send(user)
    
 
